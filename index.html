@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main_media.css">
+</head>
+<body>
+    <nav>
+        <h1 class="logo">Brand</h1>
+        <ul class="nav_collection">
+            <li class="nav_item"><a href="">Home</a></li>
+            <li class="nav_item"><a href="">About</a></li>
+            <li class="nav_item"><a href="">Blog</a></li>
+            <li class="nav_item"><a href="">Contact</a></li>
+        </ul>
+        <div onclick="addShow()" class="menu_icon">
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <h1 class="title_pc">For Desktop</h1>
+        <h1 class="title_mb">For Mobile</h1>
+    </div>
+
+    <h1 class="title">Gallery</h1>
+
+    <div class="gallery">
+        <div class="gallery_item">
+            <img src="./IMAGE (11).png" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./IMAGE (3).png" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./IMAGE (21).png" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./IMAGE (21).png" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./IMAGE (12).png" alt="">
+        </div>
+        <div class="gallery_item">
+            <img src="./IMAGE (3).png" alt="">
+        </div>
+    </div>
+
+    <div class="login_form">
+        <div class="our_main">
+            <h1>OUR MAIN OFFICE</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="our_main">
+            <h1>OUR MAIN OFFICE</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="our_main">
+            <h1>OUR MAIN OFFICE</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <h1 class="info_title">Contact info</h1>
+        <div class="image">
+            <img src="./IMAGE (12).png" alt="">
+        </div>
+         <div class="email">
+             <input type="text" placeholder="Email">
+             <input type="password" placeholder="Password">
+             <input type="text" placeholder="Name">
+             <button class="btn">SUBMIT</button>
+         </div>   
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function addShow(){
+            document.querySelector(".nav_collection").classList.toggle("show")
+        }
+    </script>    
+</body>
+</html>
